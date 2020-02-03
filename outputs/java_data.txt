@@ -1,0 +1,85 @@
+Java; SciFe; 0
+Num structures: 6
+1381 ms
+180 kB
+Java; MiMI; 0
+Num structures: 6
+75 ms
+7 kB
+; CLP; 0
+warning: /home/kyle/SciFe/clp/output.pl:201: user directive failed
+0.00user 0.00system 0:00.06elapsed 10%CPU (0avgtext+0avgdata 4264maxresident)k
+1792inputs+0outputs (5major+566minor)pagefaults 0swaps
+Error detected
+Java; SciFe; 1
+Num structures: 48
+1265 ms
+193 kB
+Java; MiMI; 1
+Num structures: 48
+103 ms
+16 kB
+Skipping bound 1 for Kyle CLP due to previously-detected error
+Java; SciFe; 2
+Num structures: 272
+1246 ms
+228 kB
+Java; MiMI; 2
+Num structures: 272
+134 ms
+55 kB
+Skipping bound 2 for Kyle CLP due to previously-detected error
+Java; SciFe; 3
+Num structures: 17331
+1300 ms
+2747 kB
+Java; MiMI; 3
+Num structures: 17331
+302 ms
+4318 kB
+Skipping bound 3 for Kyle CLP due to previously-detected error
+Java; SciFe; 4
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:37)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.sciFeMain(ScalameterBypassEvaluation.scala:53)
+	at scife.enumeration.benchmarks.iterators.JavaSciFeEvaluate$.main(ScalameterBypassEvaluation.scala:193)
+	at scife.enumeration.benchmarks.iterators.JavaSciFeEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+Java; MiMI; 4
+Num structures: 229464159
+356664 ms
+5219 kB
+Skipping bound 4 for Kyle CLP due to previously-detected error
+Skipping bound 5 for SciFe due to previously-detected error
+Java; MiMI; 5
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:37)
+	at scife.enumeration.benchmarks.iterators.JavaMiMIEvaluate$.main(ScalameterBypassEvaluation.scala:208)
+	at scife.enumeration.benchmarks.iterators.JavaMiMIEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+Skipping bound 5 for Kyle CLP due to previously-detected error
+Skipping bound 6 for SciFe due to previously-detected error
+Skipping bound 6 for MiMIs due to previously-detected error
+Skipping bound 6 for Kyle CLP due to previously-detected error
+Skipping bound 7 for SciFe due to previously-detected error
+Skipping bound 7 for MiMIs due to previously-detected error
+Skipping bound 7 for Kyle CLP due to previously-detected error
+Skipping bound 8 for SciFe due to previously-detected error
+Skipping bound 8 for MiMIs due to previously-detected error
+Skipping bound 8 for Kyle CLP due to previously-detected error
+Skipping bound 9 for SciFe due to previously-detected error
+Skipping bound 9 for MiMIs due to previously-detected error
+Skipping bound 9 for Kyle CLP due to previously-detected error
+Skipping bound 10 for SciFe due to previously-detected error
+Skipping bound 10 for MiMIs due to previously-detected error
+Skipping bound 10 for Kyle CLP due to previously-detected error

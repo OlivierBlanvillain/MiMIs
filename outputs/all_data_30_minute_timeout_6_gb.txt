@@ -1,0 +1,1152 @@
+BSTs; SciFe; 12
+Num structures: 208012
+1447 ms
+112591 kB
+BSTs; MiMI; 12
+Num structures: 208012
+519 ms
+16507 kB
+kyle_bst; CLP; 12
+0.16user 0.00system 0:00.17elapsed 99%CPU (0avgtext+0avgdata 4332maxresident)k
+0inputs+0outputs (0major+562minor)pagefaults 0swaps
+senni_bst; CLP; 12
+3.61user 0.00system 0:03.62elapsed 100%CPU (0avgtext+0avgdata 4260maxresident)k
+0inputs+0outputs (0major+571minor)pagefaults 0swaps
+BSTs; SciFe; 13
+Num structures: 742900
+1908 ms
+256954 kB
+BSTs; MiMI; 13
+Num structures: 742900
+770 ms
+23297 kB
+kyle_bst; CLP; 13
+0.58user 0.00system 0:00.58elapsed 100%CPU (0avgtext+0avgdata 4276maxresident)k
+0inputs+0outputs (0major+562minor)pagefaults 0swaps
+senni_bst; CLP; 13
+13.41user 0.00system 0:13.41elapsed 99%CPU (0avgtext+0avgdata 4328maxresident)k
+0inputs+0outputs (0major+570minor)pagefaults 0swaps
+BSTs; SciFe; 14
+Num structures: 2674440
+4952 ms
+886617 kB
+BSTs; MiMI; 14
+Num structures: 2674440
+2518 ms
+23114 kB
+kyle_bst; CLP; 14
+2.34user 0.00system 0:02.34elapsed 100%CPU (0avgtext+0avgdata 4288maxresident)k
+0inputs+0outputs (0major+563minor)pagefaults 0swaps
+senni_bst; CLP; 14
+53.54user 0.00system 0:53.54elapsed 99%CPU (0avgtext+0avgdata 4256maxresident)k
+0inputs+0outputs (0major+571minor)pagefaults 0swaps
+BSTs; SciFe; 15
+Num structures: 9694845
+10979 ms
+2908907 kB
+BSTs; MiMI; 15
+Num structures: 9694845
+11051 ms
+35711 kB
+kyle_bst; CLP; 15
+7.86user 0.00system 0:07.86elapsed 99%CPU (0avgtext+0avgdata 4236maxresident)k
+0inputs+0outputs (0major+565minor)pagefaults 0swaps
+senni_bst; CLP; 15
+214.89user 0.00system 3:34.89elapsed 100%CPU (0avgtext+0avgdata 4336maxresident)k
+0inputs+0outputs (0major+572minor)pagefaults 0swaps
+BSTs; SciFe; 16
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:36)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.sciFeMain(ScalameterBypassEvaluation.scala:52)
+	at scife.enumeration.benchmarks.iterators.BSTSciFeEvaluate$.main(ScalameterBypassEvaluation.scala:80)
+	at scife.enumeration.benchmarks.iterators.BSTSciFeEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+BSTs; MiMI; 16
+Num structures: 35357670
+40261 ms
+35798 kB
+kyle_bst; CLP; 16
+28.17user 0.00system 0:28.18elapsed 100%CPU (0avgtext+0avgdata 4236maxresident)k
+0inputs+0outputs (0major+565minor)pagefaults 0swaps
+senni_bst; CLP; 16
+861.64user 0.00system 14:21.64elapsed 99%CPU (0avgtext+0avgdata 4448maxresident)k
+0inputs+0outputs (0major+576minor)pagefaults 0swaps
+Skipping bound 17 for SciFe due to previously-detected error
+BSTs; MiMI; 17
+Num structures: 129644790
+159263 ms
+53124 kB
+kyle_bst; CLP; 17
+103.25user 0.00system 1:43.25elapsed 99%CPU (0avgtext+0avgdata 4156maxresident)k
+0inputs+0outputs (0major+561minor)pagefaults 0swaps
+senni_bst; CLP; 17
+Error detected
+Skipping bound 18 for SciFe due to previously-detected error
+BSTs; MiMI; 18
+Num structures: 477638700
+699154 ms
+55816 kB
+kyle_bst; CLP; 18
+384.29user 0.00system 6:24.30elapsed 99%CPU (0avgtext+0avgdata 4232maxresident)k
+0inputs+0outputs (0major+563minor)pagefaults 0swaps
+Skipping bound 18 for Senni CLP due to previously-detected error
+Skipping bound 19 for SciFe due to previously-detected error
+BSTs; MiMI; 19
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:36)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.mimiMain(ScalameterBypassEvaluation.scala:68)
+	at scife.enumeration.benchmarks.iterators.BSTMiMIEvaluate$.main(ScalameterBypassEvaluation.scala:95)
+	at scife.enumeration.benchmarks.iterators.BSTMiMIEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+kyle_bst; CLP; 19
+1430.53user 0.00system 23:50.53elapsed 99%CPU (0avgtext+0avgdata 4164maxresident)k
+0inputs+0outputs (0major+561minor)pagefaults 0swaps
+Skipping bound 19 for Senni CLP due to previously-detected error
+Skipping bound 20 for SciFe due to previously-detected error
+Skipping bound 20 for MiMIs due to previously-detected error
+kyle_bst; CLP; 20
+Error detected
+Skipping bound 20 for Senni CLP due to previously-detected error
+Skipping bound 21 for SciFe due to previously-detected error
+Skipping bound 21 for MiMIs due to previously-detected error
+Skipping bound 21 for Kyle CLP due to previously-detected error
+Skipping bound 21 for Senni CLP due to previously-detected error
+Skipping bound 22 for SciFe due to previously-detected error
+Skipping bound 22 for MiMIs due to previously-detected error
+Skipping bound 22 for Kyle CLP due to previously-detected error
+Skipping bound 22 for Senni CLP due to previously-detected error
+Skipping bound 23 for SciFe due to previously-detected error
+Skipping bound 23 for MiMIs due to previously-detected error
+Skipping bound 23 for Kyle CLP due to previously-detected error
+Skipping bound 23 for Senni CLP due to previously-detected error
+Skipping bound 24 for SciFe due to previously-detected error
+Skipping bound 24 for MiMIs due to previously-detected error
+Skipping bound 24 for Kyle CLP due to previously-detected error
+Skipping bound 24 for Senni CLP due to previously-detected error
+Skipping bound 25 for SciFe due to previously-detected error
+Skipping bound 25 for MiMIs due to previously-detected error
+Skipping bound 25 for Kyle CLP due to previously-detected error
+Skipping bound 25 for Senni CLP due to previously-detected error
+Skipping bound 26 for SciFe due to previously-detected error
+Skipping bound 26 for MiMIs due to previously-detected error
+Skipping bound 26 for Kyle CLP due to previously-detected error
+Skipping bound 26 for Senni CLP due to previously-detected error
+Skipping bound 27 for SciFe due to previously-detected error
+Skipping bound 27 for MiMIs due to previously-detected error
+Skipping bound 27 for Kyle CLP due to previously-detected error
+Skipping bound 27 for Senni CLP due to previously-detected error
+Skipping bound 28 for SciFe due to previously-detected error
+Skipping bound 28 for MiMIs due to previously-detected error
+Skipping bound 28 for Kyle CLP due to previously-detected error
+Skipping bound 28 for Senni CLP due to previously-detected error
+Skipping bound 29 for SciFe due to previously-detected error
+Skipping bound 29 for MiMIs due to previously-detected error
+Skipping bound 29 for Kyle CLP due to previously-detected error
+Skipping bound 29 for Senni CLP due to previously-detected error
+Skipping bound 30 for SciFe due to previously-detected error
+Skipping bound 30 for MiMIs due to previously-detected error
+Skipping bound 30 for Kyle CLP due to previously-detected error
+Skipping bound 30 for Senni CLP due to previously-detected error
+Skipping bound 31 for SciFe due to previously-detected error
+Skipping bound 31 for MiMIs due to previously-detected error
+Skipping bound 31 for Kyle CLP due to previously-detected error
+Skipping bound 31 for Senni CLP due to previously-detected error
+Skipping bound 32 for SciFe due to previously-detected error
+Skipping bound 32 for MiMIs due to previously-detected error
+Skipping bound 32 for Kyle CLP due to previously-detected error
+Skipping bound 32 for Senni CLP due to previously-detected error
+Skipping bound 33 for SciFe due to previously-detected error
+Skipping bound 33 for MiMIs due to previously-detected error
+Skipping bound 33 for Kyle CLP due to previously-detected error
+Skipping bound 33 for Senni CLP due to previously-detected error
+Skipping bound 34 for SciFe due to previously-detected error
+Skipping bound 34 for MiMIs due to previously-detected error
+Skipping bound 34 for Kyle CLP due to previously-detected error
+Skipping bound 34 for Senni CLP due to previously-detected error
+Skipping bound 35 for SciFe due to previously-detected error
+Skipping bound 35 for MiMIs due to previously-detected error
+Skipping bound 35 for Kyle CLP due to previously-detected error
+Skipping bound 35 for Senni CLP due to previously-detected error
+Skipping bound 36 for SciFe due to previously-detected error
+Skipping bound 36 for MiMIs due to previously-detected error
+Skipping bound 36 for Kyle CLP due to previously-detected error
+Skipping bound 36 for Senni CLP due to previously-detected error
+Skipping bound 37 for SciFe due to previously-detected error
+Skipping bound 37 for MiMIs due to previously-detected error
+Skipping bound 37 for Kyle CLP due to previously-detected error
+Skipping bound 37 for Senni CLP due to previously-detected error
+Skipping bound 38 for SciFe due to previously-detected error
+Skipping bound 38 for MiMIs due to previously-detected error
+Skipping bound 38 for Kyle CLP due to previously-detected error
+Skipping bound 38 for Senni CLP due to previously-detected error
+Skipping bound 39 for SciFe due to previously-detected error
+Skipping bound 39 for MiMIs due to previously-detected error
+Skipping bound 39 for Kyle CLP due to previously-detected error
+Skipping bound 39 for Senni CLP due to previously-detected error
+Skipping bound 40 for SciFe due to previously-detected error
+Skipping bound 40 for MiMIs due to previously-detected error
+Skipping bound 40 for Kyle CLP due to previously-detected error
+Skipping bound 40 for Senni CLP due to previously-detected error
+Skipping bound 41 for SciFe due to previously-detected error
+Skipping bound 41 for MiMIs due to previously-detected error
+Skipping bound 41 for Kyle CLP due to previously-detected error
+Skipping bound 41 for Senni CLP due to previously-detected error
+Skipping bound 42 for SciFe due to previously-detected error
+Skipping bound 42 for MiMIs due to previously-detected error
+Skipping bound 42 for Kyle CLP due to previously-detected error
+Skipping bound 42 for Senni CLP due to previously-detected error
+Skipping bound 43 for SciFe due to previously-detected error
+Skipping bound 43 for MiMIs due to previously-detected error
+Skipping bound 43 for Kyle CLP due to previously-detected error
+Skipping bound 43 for Senni CLP due to previously-detected error
+Skipping bound 44 for SciFe due to previously-detected error
+Skipping bound 44 for MiMIs due to previously-detected error
+Skipping bound 44 for Kyle CLP due to previously-detected error
+Skipping bound 44 for Senni CLP due to previously-detected error
+Skipping bound 45 for SciFe due to previously-detected error
+Skipping bound 45 for MiMIs due to previously-detected error
+Skipping bound 45 for Kyle CLP due to previously-detected error
+Skipping bound 45 for Senni CLP due to previously-detected error
+Skipping bound 46 for SciFe due to previously-detected error
+Skipping bound 46 for MiMIs due to previously-detected error
+Skipping bound 46 for Kyle CLP due to previously-detected error
+Skipping bound 46 for Senni CLP due to previously-detected error
+Skipping bound 47 for SciFe due to previously-detected error
+Skipping bound 47 for MiMIs due to previously-detected error
+Skipping bound 47 for Kyle CLP due to previously-detected error
+Skipping bound 47 for Senni CLP due to previously-detected error
+Skipping bound 48 for SciFe due to previously-detected error
+Skipping bound 48 for MiMIs due to previously-detected error
+Skipping bound 48 for Kyle CLP due to previously-detected error
+Skipping bound 48 for Senni CLP due to previously-detected error
+Skipping bound 49 for SciFe due to previously-detected error
+Skipping bound 49 for MiMIs due to previously-detected error
+Skipping bound 49 for Kyle CLP due to previously-detected error
+Skipping bound 49 for Senni CLP due to previously-detected error
+Skipping bound 50 for SciFe due to previously-detected error
+Skipping bound 50 for MiMIs due to previously-detected error
+Skipping bound 50 for Kyle CLP due to previously-detected error
+Skipping bound 50 for Senni CLP due to previously-detected error
+RBTs; SciFe; 14
+Num structures: 5400
+4230 ms
+130010 kB
+RBTs; MiMI; 14
+Num structures: 5400
+163 ms
+215 kB
+kyle_rb; CLP; 14
+0.74user 0.00system 0:00.75elapsed 99%CPU (0avgtext+0avgdata 4544maxresident)k
+0inputs+0outputs (0major+569minor)pagefaults 0swaps
+senni_rb; CLP; 14
+0.18user 0.00system 0:00.18elapsed 100%CPU (0avgtext+0avgdata 4296maxresident)k
+0inputs+0outputs (0major+579minor)pagefaults 0swaps
+RBTs; SciFe; 15
+Num structures: 10468
+8278 ms
+188550 kB
+RBTs; MiMI; 15
+Num structures: 10468
+246 ms
+413 kB
+kyle_rb; CLP; 15
+2.58user 0.00system 0:02.58elapsed 100%CPU (0avgtext+0avgdata 4580maxresident)k
+0inputs+0outputs (0major+568minor)pagefaults 0swaps
+senni_rb; CLP; 15
+0.38user 0.00system 0:00.38elapsed 100%CPU (0avgtext+0avgdata 4368maxresident)k
+0inputs+0outputs (0major+580minor)pagefaults 0swaps
+RBTs; SciFe; 16
+Num structures: 13184
+8307 ms
+134866 kB
+RBTs; MiMI; 16
+Num structures: 13184
+185 ms
+436 kB
+kyle_rb; CLP; 16
+4.85user 0.00system 0:04.85elapsed 100%CPU (0avgtext+0avgdata 4344maxresident)k
+0inputs+0outputs (0major+564minor)pagefaults 0swaps
+senni_rb; CLP; 16
+0.86user 0.00system 0:00.86elapsed 100%CPU (0avgtext+0avgdata 4368maxresident)k
+0inputs+0outputs (0major+582minor)pagefaults 0swaps
+RBTs; SciFe; 17
+Num structures: 27732
+9593 ms
+2254702 kB
+RBTs; MiMI; 17
+Num structures: 27732
+347 ms
+1705 kB
+kyle_rb; CLP; 17
+9.93user 0.00system 0:09.93elapsed 100%CPU (0avgtext+0avgdata 4524maxresident)k
+0inputs+0outputs (0major+568minor)pagefaults 0swaps
+senni_rb; CLP; 17
+2.02user 0.00system 0:02.02elapsed 99%CPU (0avgtext+0avgdata 4308maxresident)k
+0inputs+0outputs (0major+582minor)pagefaults 0swaps
+RBTs; SciFe; 18
+Num structures: 58600
+12919 ms
+2292788 kB
+RBTs; MiMI; 18
+Num structures: 58600
+544 ms
+6569 kB
+kyle_rb; CLP; 18
+20.42user 0.00system 0:20.42elapsed 99%CPU (0avgtext+0avgdata 4352maxresident)k
+0inputs+0outputs (0major+564minor)pagefaults 0swaps
+senni_rb; CLP; 18
+4.06user 0.00system 0:04.06elapsed 100%CPU (0avgtext+0avgdata 4368maxresident)k
+0inputs+0outputs (0major+585minor)pagefaults 0swaps
+RBTs; SciFe; 19
+Num structures: 123806
+19782 ms
+7448801 kB
+RBTs; MiMI; 19
+Num structures: 123806
+806 ms
+6742 kB
+kyle_rb; CLP; 19
+41.95user 0.00system 0:41.95elapsed 100%CPU (0avgtext+0avgdata 4532maxresident)k
+0inputs+0outputs (0major+568minor)pagefaults 0swaps
+senni_rb; CLP; 19
+8.34user 0.00system 0:08.34elapsed 100%CPU (0avgtext+0avgdata 4320maxresident)k
+0inputs+0outputs (0major+583minor)pagefaults 0swaps
+RBTs; SciFe; 20
+java.lang.OutOfMemoryError: Java heap space
+	at java.lang.reflect.Array.newInstance(Array.java:75)
+	at scala.reflect.ClassTag$class.newArray(ClassTag.scala:62)
+	at scala.reflect.ClassTag$$anon$1.newArray(ClassTag.scala:154)
+	at scife.enumeration.memoization.MemoizedStatic$class.$init$(MemoizedStatic.scala:16)
+	at scife.enumeration.memoization.Chain$$anon$4.<init>(Chain.scala:39)
+	at scife.enumeration.memoization.Chain$.apply(Chain.scala:37)
+	at scife.enumeration.common.enumdef.RedBlackTreeEnum$$anonfun$20.apply(RedBlackTreeEnum.scala:287)
+	at scife.enumeration.common.enumdef.RedBlackTreeEnum$$anonfun$20.apply(RedBlackTreeEnum.scala:261)
+	at scife.enumeration.dependent.WrapFunction.getEnum(WrapFunction.scala:21)
+	at scife.enumeration.dependent.Depend$$anon$2.scife$enumeration$memoization$dependent$Memoized$$super$getEnum(Depend.scala:181)
+	at scife.enumeration.memoization.dependent.Memoized$class.getEnum(Memoized.scala:21)
+	at scife.enumeration.dependent.Depend$$anon$2.getEnum(Depend.scala:181)
+	at scife.enumeration.dependent.combinators.InMap$class.getEnum(InMap.scala:17)
+	at scife.enumeration.dependent.InMap.getEnum(InMap.scala:6)
+	at scife.enumeration.dependent.ProductFinite.getEnum(ProductFinite.scala:19)
+	at scife.enumeration.dependent.ProductFinite.getEnum(ProductFinite.scala:12)
+	at scife.enumeration.dependent.ChainFiniteCombine$$anonfun$7.apply(ChainFinite.scala:65)
+	at scife.enumeration.dependent.ChainFiniteCombine$$anonfun$7.apply(ChainFinite.scala:65)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)
+	at scala.collection.immutable.Range.foreach(Range.scala:166)
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:245)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+	at scife.enumeration.dependent.ChainFiniteCombine.<init>(ChainFinite.scala:65)
+	at scife.enumeration.memoization.Chain$$anon$4.<init>(Chain.scala:39)
+	at scife.enumeration.memoization.Chain$.apply(Chain.scala:37)
+	at scife.enumeration.common.enumdef.RedBlackTreeEnum$$anonfun$20.apply(RedBlackTreeEnum.scala:287)
+	at scife.enumeration.common.enumdef.RedBlackTreeEnum$$anonfun$20.apply(RedBlackTreeEnum.scala:261)
+	at scife.enumeration.dependent.WrapFunction.getEnum(WrapFunction.scala:21)
+	at scife.enumeration.dependent.Depend$$anon$2.scife$enumeration$memoization$dependent$Memoized$$super$getEnum(Depend.scala:181)
+	at scife.enumeration.memoization.dependent.Memoized$class.getEnum(Memoized.scala:21)
+	at scife.enumeration.dependent.Depend$$anon$2.getEnum(Depend.scala:181)
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:36)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.sciFeMain(ScalameterBypassEvaluation.scala:52)
+	at scife.enumeration.benchmarks.iterators.RBTSciFeEvaluate$.main(ScalameterBypassEvaluation.scala:107)
+	at scife.enumeration.benchmarks.iterators.RBTSciFeEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+RBTs; MiMI; 20
+Num structures: 259848
+1216 ms
+6753 kB
+kyle_rb; CLP; 20
+85.96user 0.00system 1:25.96elapsed 100%CPU (0avgtext+0avgdata 4588maxresident)k
+0inputs+0outputs (0major+570minor)pagefaults 0swaps
+senni_rb; CLP; 20
+17.99user 0.00system 0:18.00elapsed 99%CPU (0avgtext+0avgdata 4424maxresident)k
+0inputs+0outputs (0major+587minor)pagefaults 0swaps
+Skipping bound 21 for SciFe due to previously-detected error
+RBTs; MiMI; 21
+Num structures: 540128
+2863 ms
+2272 kB
+kyle_rb; CLP; 21
+176.83user 0.00system 2:56.84elapsed 100%CPU (0avgtext+0avgdata 4352maxresident)k
+0inputs+0outputs (0major+564minor)pagefaults 0swaps
+senni_rb; CLP; 21
+38.78user 0.00system 0:38.78elapsed 100%CPU (0avgtext+0avgdata 4396maxresident)k
+0inputs+0outputs (0major+587minor)pagefaults 0swaps
+Skipping bound 22 for SciFe due to previously-detected error
+RBTs; MiMI; 22
+Num structures: 1114240
+4929 ms
+2304 kB
+kyle_rb; CLP; 22
+364.98user 0.00system 6:04.98elapsed 99%CPU (0avgtext+0avgdata 4548maxresident)k
+0inputs+0outputs (0major+570minor)pagefaults 0swaps
+senni_rb; CLP; 22
+83.55user 0.00system 1:23.55elapsed 99%CPU (0avgtext+0avgdata 4408maxresident)k
+0inputs+0outputs (0major+590minor)pagefaults 0swaps
+Skipping bound 23 for SciFe due to previously-detected error
+RBTs; MiMI; 23
+Num structures: 2293436
+8019 ms
+2505 kB
+kyle_rb; CLP; 23
+750.72user 0.00system 12:30.72elapsed 99%CPU (0avgtext+0avgdata 4356maxresident)k
+0inputs+0outputs (0major+565minor)pagefaults 0swaps
+senni_rb; CLP; 23
+179.04user 0.00system 2:59.05elapsed 99%CPU (0avgtext+0avgdata 4408maxresident)k
+0inputs+0outputs (0major+592minor)pagefaults 0swaps
+Skipping bound 24 for SciFe due to previously-detected error
+RBTs; MiMI; 24
+Num structures: 4737472
+17636 ms
+2615 kB
+kyle_rb; CLP; 24
+1550.89user 0.00system 25:50.89elapsed 99%CPU (0avgtext+0avgdata 4416maxresident)k
+0inputs+0outputs (0major+566minor)pagefaults 0swaps
+senni_rb; CLP; 24
+387.69user 0.00system 6:27.70elapsed 99%CPU (0avgtext+0avgdata 4336maxresident)k
+0inputs+0outputs (0major+590minor)pagefaults 0swaps
+Skipping bound 25 for SciFe due to previously-detected error
+RBTs; MiMI; 25
+Num structures: 9867892
+30700 ms
+5311 kB
+kyle_rb; CLP; 25
+Error detected
+senni_rb; CLP; 25
+823.80user 0.00system 13:43.80elapsed 99%CPU (0avgtext+0avgdata 4440maxresident)k
+0inputs+0outputs (0major+595minor)pagefaults 0swaps
+Skipping bound 26 for SciFe due to previously-detected error
+RBTs; MiMI; 26
+Num structures: 20784456
+56007 ms
+5450 kB
+Skipping bound 26 for Kyle CLP due to previously-detected error
+senni_rb; CLP; 26
+1762.57user 0.00system 29:22.58elapsed 99%CPU (0avgtext+0avgdata 4404maxresident)k
+0inputs+0outputs (0major+595minor)pagefaults 0swaps
+Skipping bound 27 for SciFe due to previously-detected error
+RBTs; MiMI; 27
+Num structures: 44280872
+120951 ms
+8284 kB
+Skipping bound 27 for Kyle CLP due to previously-detected error
+senni_rb; CLP; 27
+Error detected
+Skipping bound 28 for SciFe due to previously-detected error
+RBTs; MiMI; 28
+Num structures: 95241104
+217758 ms
+70372 kB
+Skipping bound 28 for Kyle CLP due to previously-detected error
+Skipping bound 28 for Senni CLP due to previously-detected error
+Skipping bound 29 for SciFe due to previously-detected error
+RBTs; MiMI; 29
+Num structures: 206150088
+416959 ms
+953791 kB
+Skipping bound 29 for Kyle CLP due to previously-detected error
+Skipping bound 29 for Senni CLP due to previously-detected error
+Skipping bound 30 for SciFe due to previously-detected error
+RBTs; MiMI; 30
+Num structures: 447470448
+1081624 ms
+1030955 kB
+Skipping bound 30 for Kyle CLP due to previously-detected error
+Skipping bound 30 for Senni CLP due to previously-detected error
+Skipping bound 31 for SciFe due to previously-detected error
+RBTs; MiMI; 31
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:36)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.mimiMain(ScalameterBypassEvaluation.scala:68)
+	at scife.enumeration.benchmarks.iterators.RBTMiMIEvaluate$.main(ScalameterBypassEvaluation.scala:118)
+	at scife.enumeration.benchmarks.iterators.RBTMiMIEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+Skipping bound 31 for Kyle CLP due to previously-detected error
+Skipping bound 31 for Senni CLP due to previously-detected error
+Skipping bound 32 for SciFe due to previously-detected error
+Skipping bound 32 for MiMIs due to previously-detected error
+Skipping bound 32 for Kyle CLP due to previously-detected error
+Skipping bound 32 for Senni CLP due to previously-detected error
+Skipping bound 33 for SciFe due to previously-detected error
+Skipping bound 33 for MiMIs due to previously-detected error
+Skipping bound 33 for Kyle CLP due to previously-detected error
+Skipping bound 33 for Senni CLP due to previously-detected error
+Skipping bound 34 for SciFe due to previously-detected error
+Skipping bound 34 for MiMIs due to previously-detected error
+Skipping bound 34 for Kyle CLP due to previously-detected error
+Skipping bound 34 for Senni CLP due to previously-detected error
+Skipping bound 35 for SciFe due to previously-detected error
+Skipping bound 35 for MiMIs due to previously-detected error
+Skipping bound 35 for Kyle CLP due to previously-detected error
+Skipping bound 35 for Senni CLP due to previously-detected error
+Skipping bound 36 for SciFe due to previously-detected error
+Skipping bound 36 for MiMIs due to previously-detected error
+Skipping bound 36 for Kyle CLP due to previously-detected error
+Skipping bound 36 for Senni CLP due to previously-detected error
+Skipping bound 37 for SciFe due to previously-detected error
+Skipping bound 37 for MiMIs due to previously-detected error
+Skipping bound 37 for Kyle CLP due to previously-detected error
+Skipping bound 37 for Senni CLP due to previously-detected error
+Skipping bound 38 for SciFe due to previously-detected error
+Skipping bound 38 for MiMIs due to previously-detected error
+Skipping bound 38 for Kyle CLP due to previously-detected error
+Skipping bound 38 for Senni CLP due to previously-detected error
+Skipping bound 39 for SciFe due to previously-detected error
+Skipping bound 39 for MiMIs due to previously-detected error
+Skipping bound 39 for Kyle CLP due to previously-detected error
+Skipping bound 39 for Senni CLP due to previously-detected error
+Skipping bound 40 for SciFe due to previously-detected error
+Skipping bound 40 for MiMIs due to previously-detected error
+Skipping bound 40 for Kyle CLP due to previously-detected error
+Skipping bound 40 for Senni CLP due to previously-detected error
+Skipping bound 41 for SciFe due to previously-detected error
+Skipping bound 41 for MiMIs due to previously-detected error
+Skipping bound 41 for Kyle CLP due to previously-detected error
+Skipping bound 41 for Senni CLP due to previously-detected error
+Skipping bound 42 for SciFe due to previously-detected error
+Skipping bound 42 for MiMIs due to previously-detected error
+Skipping bound 42 for Kyle CLP due to previously-detected error
+Skipping bound 42 for Senni CLP due to previously-detected error
+Skipping bound 43 for SciFe due to previously-detected error
+Skipping bound 43 for MiMIs due to previously-detected error
+Skipping bound 43 for Kyle CLP due to previously-detected error
+Skipping bound 43 for Senni CLP due to previously-detected error
+Skipping bound 44 for SciFe due to previously-detected error
+Skipping bound 44 for MiMIs due to previously-detected error
+Skipping bound 44 for Kyle CLP due to previously-detected error
+Skipping bound 44 for Senni CLP due to previously-detected error
+Skipping bound 45 for SciFe due to previously-detected error
+Skipping bound 45 for MiMIs due to previously-detected error
+Skipping bound 45 for Kyle CLP due to previously-detected error
+Skipping bound 45 for Senni CLP due to previously-detected error
+Skipping bound 46 for SciFe due to previously-detected error
+Skipping bound 46 for MiMIs due to previously-detected error
+Skipping bound 46 for Kyle CLP due to previously-detected error
+Skipping bound 46 for Senni CLP due to previously-detected error
+Skipping bound 47 for SciFe due to previously-detected error
+Skipping bound 47 for MiMIs due to previously-detected error
+Skipping bound 47 for Kyle CLP due to previously-detected error
+Skipping bound 47 for Senni CLP due to previously-detected error
+Skipping bound 48 for SciFe due to previously-detected error
+Skipping bound 48 for MiMIs due to previously-detected error
+Skipping bound 48 for Kyle CLP due to previously-detected error
+Skipping bound 48 for Senni CLP due to previously-detected error
+Skipping bound 49 for SciFe due to previously-detected error
+Skipping bound 49 for MiMIs due to previously-detected error
+Skipping bound 49 for Kyle CLP due to previously-detected error
+Skipping bound 49 for Senni CLP due to previously-detected error
+Skipping bound 50 for SciFe due to previously-detected error
+Skipping bound 50 for MiMIs due to previously-detected error
+Skipping bound 50 for Kyle CLP due to previously-detected error
+Skipping bound 50 for Senni CLP due to previously-detected error
+Heaps; SciFe; 9
+Num structures: 5102496
+1922 ms
+318 kB
+Heaps; MiMI; 9
+Num structures: 5102496
+3044 ms
+161 kB
+kyle_heap; CLP; 9
+0.96user 0.00system 0:00.96elapsed 99%CPU (0avgtext+0avgdata 4344maxresident)k
+0inputs+0outputs (0major+563minor)pagefaults 0swaps
+Heaps; SciFe; 10
+Num structures: 52253237
+8246 ms
+1253 kB
+Heaps; MiMI; 10
+Num structures: 52253237
+8942 ms
+1463 kB
+kyle_heap; CLP; 10
+6.95user 0.00system 0:06.95elapsed 100%CPU (0avgtext+0avgdata 4176maxresident)k
+0inputs+0outputs (0major+560minor)pagefaults 0swaps
+Heaps; SciFe; 11
+Num structures: 588000434
+78742 ms
+1586 kB
+Heaps; MiMI; 11
+Num structures: 588000434
+318670 ms
+2533 kB
+kyle_heap; CLP; 11
+124.40user 0.00system 2:04.40elapsed 100%CPU (0avgtext+0avgdata 4252maxresident)k
+0inputs+0outputs (0major+563minor)pagefaults 0swaps
+Heaps; SciFe; 12
+Num structures: 0
+844 ms
+3161 kB
+Heaps; MiMI; 12
+Num structures: 9533357550
+1468199 ms
+13366 kB
+kyle_heap; CLP; 12
+Error detected
+Heaps; SciFe; 13
+Num structures: 1377606353
+182697 ms
+11303 kB
+Heaps; MiMI; 13
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:36)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.mimiMain(ScalameterBypassEvaluation.scala:68)
+	at scife.enumeration.benchmarks.iterators.HeapMiMIEvaluate$.main(ScalameterBypassEvaluation.scala:139)
+	at scife.enumeration.benchmarks.iterators.HeapMiMIEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+Skipping bound 13 for Kyle CLP due to previously-detected error
+Heaps; SciFe; 14
+Num structures: 1395047936
+160261 ms
+78663 kB
+Skipping bound 14 for MiMIs due to previously-detected error
+Skipping bound 14 for Kyle CLP due to previously-detected error
+Heaps; SciFe; 15
+Num structures: 983441256
+119450 ms
+84585 kB
+Skipping bound 15 for MiMIs due to previously-detected error
+Skipping bound 15 for Kyle CLP due to previously-detected error
+Heaps; SciFe; 16
+Num structures: 0
+1312 ms
+980440 kB
+Skipping bound 16 for MiMIs due to previously-detected error
+Skipping bound 16 for Kyle CLP due to previously-detected error
+Heaps; SciFe; 17
+Num structures: 0
+4990 ms
+1769202 kB
+Skipping bound 17 for MiMIs due to previously-detected error
+Skipping bound 17 for Kyle CLP due to previously-detected error
+Heaps; SciFe; 18
+Num structures: 1104184708
+361178 ms
+3159379 kB
+Skipping bound 18 for MiMIs due to previously-detected error
+Skipping bound 18 for Kyle CLP due to previously-detected error
+Heaps; SciFe; 19
+Num structures: 0
+786 ms
+1576 kB
+Skipping bound 19 for MiMIs due to previously-detected error
+Skipping bound 19 for Kyle CLP due to previously-detected error
+Heaps; SciFe; 20
+Num structures: 0
+1054 ms
+12265 kB
+Skipping bound 20 for MiMIs due to previously-detected error
+Skipping bound 20 for Kyle CLP due to previously-detected error
+Heaps; SciFe; 21
+Num structures: 0
+764 ms
+15479 kB
+Skipping bound 21 for MiMIs due to previously-detected error
+Skipping bound 21 for Kyle CLP due to previously-detected error
+Heaps; SciFe; 22
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:36)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.sciFeMain(ScalameterBypassEvaluation.scala:52)
+	at scife.enumeration.benchmarks.iterators.HeapSciFeEvaluate$.main(ScalameterBypassEvaluation.scala:129)
+	at scife.enumeration.benchmarks.iterators.HeapSciFeEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+Skipping bound 22 for MiMIs due to previously-detected error
+Skipping bound 22 for Kyle CLP due to previously-detected error
+Skipping bound 23 for SciFe due to previously-detected error
+Skipping bound 23 for MiMIs due to previously-detected error
+Skipping bound 23 for Kyle CLP due to previously-detected error
+Skipping bound 24 for SciFe due to previously-detected error
+Skipping bound 24 for MiMIs due to previously-detected error
+Skipping bound 24 for Kyle CLP due to previously-detected error
+Skipping bound 25 for SciFe due to previously-detected error
+Skipping bound 25 for MiMIs due to previously-detected error
+Skipping bound 25 for Kyle CLP due to previously-detected error
+Skipping bound 26 for SciFe due to previously-detected error
+Skipping bound 26 for MiMIs due to previously-detected error
+Skipping bound 26 for Kyle CLP due to previously-detected error
+Skipping bound 27 for SciFe due to previously-detected error
+Skipping bound 27 for MiMIs due to previously-detected error
+Skipping bound 27 for Kyle CLP due to previously-detected error
+Skipping bound 28 for SciFe due to previously-detected error
+Skipping bound 28 for MiMIs due to previously-detected error
+Skipping bound 28 for Kyle CLP due to previously-detected error
+Skipping bound 29 for SciFe due to previously-detected error
+Skipping bound 29 for MiMIs due to previously-detected error
+Skipping bound 29 for Kyle CLP due to previously-detected error
+Skipping bound 30 for SciFe due to previously-detected error
+Skipping bound 30 for MiMIs due to previously-detected error
+Skipping bound 30 for Kyle CLP due to previously-detected error
+Skipping bound 31 for SciFe due to previously-detected error
+Skipping bound 31 for MiMIs due to previously-detected error
+Skipping bound 31 for Kyle CLP due to previously-detected error
+Skipping bound 32 for SciFe due to previously-detected error
+Skipping bound 32 for MiMIs due to previously-detected error
+Skipping bound 32 for Kyle CLP due to previously-detected error
+Skipping bound 33 for SciFe due to previously-detected error
+Skipping bound 33 for MiMIs due to previously-detected error
+Skipping bound 33 for Kyle CLP due to previously-detected error
+Skipping bound 34 for SciFe due to previously-detected error
+Skipping bound 34 for MiMIs due to previously-detected error
+Skipping bound 34 for Kyle CLP due to previously-detected error
+Skipping bound 35 for SciFe due to previously-detected error
+Skipping bound 35 for MiMIs due to previously-detected error
+Skipping bound 35 for Kyle CLP due to previously-detected error
+Skipping bound 36 for SciFe due to previously-detected error
+Skipping bound 36 for MiMIs due to previously-detected error
+Skipping bound 36 for Kyle CLP due to previously-detected error
+Skipping bound 37 for SciFe due to previously-detected error
+Skipping bound 37 for MiMIs due to previously-detected error
+Skipping bound 37 for Kyle CLP due to previously-detected error
+Skipping bound 38 for SciFe due to previously-detected error
+Skipping bound 38 for MiMIs due to previously-detected error
+Skipping bound 38 for Kyle CLP due to previously-detected error
+Skipping bound 39 for SciFe due to previously-detected error
+Skipping bound 39 for MiMIs due to previously-detected error
+Skipping bound 39 for Kyle CLP due to previously-detected error
+Skipping bound 40 for SciFe due to previously-detected error
+Skipping bound 40 for MiMIs due to previously-detected error
+Skipping bound 40 for Kyle CLP due to previously-detected error
+Skipping bound 41 for SciFe due to previously-detected error
+Skipping bound 41 for MiMIs due to previously-detected error
+Skipping bound 41 for Kyle CLP due to previously-detected error
+Skipping bound 42 for SciFe due to previously-detected error
+Skipping bound 42 for MiMIs due to previously-detected error
+Skipping bound 42 for Kyle CLP due to previously-detected error
+Skipping bound 43 for SciFe due to previously-detected error
+Skipping bound 43 for MiMIs due to previously-detected error
+Skipping bound 43 for Kyle CLP due to previously-detected error
+Skipping bound 44 for SciFe due to previously-detected error
+Skipping bound 44 for MiMIs due to previously-detected error
+Skipping bound 44 for Kyle CLP due to previously-detected error
+Skipping bound 45 for SciFe due to previously-detected error
+Skipping bound 45 for MiMIs due to previously-detected error
+Skipping bound 45 for Kyle CLP due to previously-detected error
+Skipping bound 46 for SciFe due to previously-detected error
+Skipping bound 46 for MiMIs due to previously-detected error
+Skipping bound 46 for Kyle CLP due to previously-detected error
+Skipping bound 47 for SciFe due to previously-detected error
+Skipping bound 47 for MiMIs due to previously-detected error
+Skipping bound 47 for Kyle CLP due to previously-detected error
+Skipping bound 48 for SciFe due to previously-detected error
+Skipping bound 48 for MiMIs due to previously-detected error
+Skipping bound 48 for Kyle CLP due to previously-detected error
+Skipping bound 49 for SciFe due to previously-detected error
+Skipping bound 49 for MiMIs due to previously-detected error
+Skipping bound 49 for Kyle CLP due to previously-detected error
+Skipping bound 50 for SciFe due to previously-detected error
+Skipping bound 50 for MiMIs due to previously-detected error
+Skipping bound 50 for Kyle CLP due to previously-detected error
+B-Trees; SciFe; 28
+Num structures: 980852
+3199 ms
+219644 kB
+B-Trees; MiMI; 28
+Num structures: 980852
+2032 ms
+80119 kB
+kyle_btree; CLP; 28
+7.06user 0.00system 0:07.07elapsed 100%CPU (0avgtext+0avgdata 4752maxresident)k
+0inputs+0outputs (0major+576minor)pagefaults 0swaps
+B-Trees; SciFe; 29
+Num structures: 1722451
+4729 ms
+386386 kB
+B-Trees; MiMI; 29
+Num structures: 1722451
+3365 ms
+23532 kB
+kyle_btree; CLP; 29
+12.02user 0.00system 0:12.02elapsed 99%CPU (0avgtext+0avgdata 4708maxresident)k
+0inputs+0outputs (0major+573minor)pagefaults 0swaps
+B-Trees; SciFe; 30
+Num structures: 3020214
+5801 ms
+677068 kB
+B-Trees; MiMI; 30
+Num structures: 3020214
+5674 ms
+99074 kB
+kyle_btree; CLP; 30
+21.29user 0.00system 0:21.29elapsed 100%CPU (0avgtext+0avgdata 4660maxresident)k
+0inputs+0outputs (0major+574minor)pagefaults 0swaps
+B-Trees; SciFe; 31
+Num structures: 5298569
+8725 ms
+1180247 kB
+B-Trees; MiMI; 31
+Num structures: 5298569
+8730 ms
+23593 kB
+kyle_btree; CLP; 31
+37.22user 0.00system 0:37.22elapsed 100%CPU (0avgtext+0avgdata 4588maxresident)k
+0inputs+0outputs (0major+571minor)pagefaults 0swaps
+B-Trees; SciFe; 32
+Num structures: 9316440
+13530 ms
+2209516 kB
+B-Trees; MiMI; 32
+Num structures: 9316440
+14360 ms
+446438 kB
+kyle_btree; CLP; 32
+65.45user 0.00system 1:05.45elapsed 100%CPU (0avgtext+0avgdata 4588maxresident)k
+0inputs+0outputs (0major+571minor)pagefaults 0swaps
+B-Trees; SciFe; 33
+Num structures: 16440118
+22395 ms
+3809706 kB
+B-Trees; MiMI; 33
+Num structures: 16440118
+23942 ms
+33305 kB
+kyle_btree; CLP; 33
+115.63user 0.00system 1:55.64elapsed 99%CPU (0avgtext+0avgdata 4656maxresident)k
+0inputs+0outputs (0major+576minor)pagefaults 0swaps
+B-Trees; SciFe; 34
+Num structures: 29135553
+34915 ms
+7506244 kB
+B-Trees; MiMI; 34
+Num structures: 29135553
+40462 ms
+4687 kB
+kyle_btree; CLP; 34
+204.89user 0.00system 3:24.89elapsed 99%CPU (0avgtext+0avgdata 4564maxresident)k
+0inputs+0outputs (0major+573minor)pagefaults 0swaps
+B-Trees; SciFe; 35
+Num structures: 51855330
+114056 ms
+13181665 kB
+B-Trees; MiMI; 35
+Num structures: 51855330
+70188 ms
+231591 kB
+kyle_btree; CLP; 35
+364.90user 0.00system 6:04.90elapsed 99%CPU (0avgtext+0avgdata 4668maxresident)k
+0inputs+0outputs (0major+576minor)pagefaults 0swaps
+B-Trees; SciFe; 36
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:36)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.sciFeMain(ScalameterBypassEvaluation.scala:52)
+	at scife.enumeration.benchmarks.iterators.BTreeSciFeEvaluate$.main(ScalameterBypassEvaluation.scala:150)
+	at scife.enumeration.benchmarks.iterators.BTreeSciFeEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+B-Trees; MiMI; 36
+Num structures: 92621761
+129002 ms
+118711 kB
+kyle_btree; CLP; 36
+657.43user 0.00system 10:57.44elapsed 99%CPU (0avgtext+0avgdata 4784maxresident)k
+0inputs+0outputs (0major+577minor)pagefaults 0swaps
+Skipping bound 37 for SciFe due to previously-detected error
+B-Trees; MiMI; 37
+Num structures: 165849392
+253847 ms
+128787 kB
+kyle_btree; CLP; 37
+1167.12user 0.00system 19:27.12elapsed 99%CPU (0avgtext+0avgdata 4780maxresident)k
+0inputs+0outputs (0major+576minor)pagefaults 0swaps
+Skipping bound 38 for SciFe due to previously-detected error
+B-Trees; MiMI; 38
+Num structures: 297353141
+420361 ms
+260642 kB
+kyle_btree; CLP; 38
+Error detected
+Skipping bound 39 for SciFe due to previously-detected error
+B-Trees; MiMI; 39
+Num structures: 533223502
+787938 ms
+260511 kB
+Skipping bound 39 for Kyle CLP due to previously-detected error
+Skipping bound 40 for SciFe due to previously-detected error
+B-Trees; MiMI; 40
+Num structures: 955519448
+1408615 ms
+347457 kB
+Skipping bound 40 for Kyle CLP due to previously-detected error
+Skipping bound 41 for SciFe due to previously-detected error
+B-Trees; MiMI; 41
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:36)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.mimiMain(ScalameterBypassEvaluation.scala:68)
+	at scife.enumeration.benchmarks.iterators.BTreeMiMIEvaluate$.main(ScalameterBypassEvaluation.scala:161)
+	at scife.enumeration.benchmarks.iterators.BTreeMiMIEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+Skipping bound 41 for Kyle CLP due to previously-detected error
+Skipping bound 42 for SciFe due to previously-detected error
+Skipping bound 42 for MiMIs due to previously-detected error
+Skipping bound 42 for Kyle CLP due to previously-detected error
+Skipping bound 43 for SciFe due to previously-detected error
+Skipping bound 43 for MiMIs due to previously-detected error
+Skipping bound 43 for Kyle CLP due to previously-detected error
+Skipping bound 44 for SciFe due to previously-detected error
+Skipping bound 44 for MiMIs due to previously-detected error
+Skipping bound 44 for Kyle CLP due to previously-detected error
+Skipping bound 45 for SciFe due to previously-detected error
+Skipping bound 45 for MiMIs due to previously-detected error
+Skipping bound 45 for Kyle CLP due to previously-detected error
+Skipping bound 46 for SciFe due to previously-detected error
+Skipping bound 46 for MiMIs due to previously-detected error
+Skipping bound 46 for Kyle CLP due to previously-detected error
+Skipping bound 47 for SciFe due to previously-detected error
+Skipping bound 47 for MiMIs due to previously-detected error
+Skipping bound 47 for Kyle CLP due to previously-detected error
+Skipping bound 48 for SciFe due to previously-detected error
+Skipping bound 48 for MiMIs due to previously-detected error
+Skipping bound 48 for Kyle CLP due to previously-detected error
+Skipping bound 49 for SciFe due to previously-detected error
+Skipping bound 49 for MiMIs due to previously-detected error
+Skipping bound 49 for Kyle CLP due to previously-detected error
+Skipping bound 50 for SciFe due to previously-detected error
+Skipping bound 50 for MiMIs due to previously-detected error
+Skipping bound 50 for Kyle CLP due to previously-detected error
+Riff; SciFe; 12
+Num structures: 465168
+2696 ms
+131558 kB
+Riff; MiMI; 12
+Num structures: 465168
+1131 ms
+11680 kB
+kyle_riff; CLP; 12
+9.51user 0.00system 0:09.51elapsed 100%CPU (0avgtext+0avgdata 4276maxresident)k
+0inputs+0outputs (0major+561minor)pagefaults 0swaps
+Riff; SciFe; 13
+Num structures: 6476939
+9108 ms
+1084864 kB
+Riff; MiMI; 13
+Num structures: 6476939
+8298 ms
+80223 kB
+kyle_riff; CLP; 13
+81.19user 0.00system 1:21.19elapsed 100%CPU (0avgtext+0avgdata 4344maxresident)k
+0inputs+0outputs (0major+562minor)pagefaults 0swaps
+Riff; SciFe; 14
+Num structures: 7859397
+10650 ms
+1320482 kB
+Riff; MiMI; 14
+Num structures: 7859397
+9841 ms
+230632 kB
+kyle_riff; CLP; 14
+241.60user 0.00system 4:01.60elapsed 99%CPU (0avgtext+0avgdata 4252maxresident)k
+0inputs+0outputs (0major+562minor)pagefaults 0swaps
+Riff; SciFe; 15
+Num structures: 127672581
+62373 ms
+9187544 kB
+Riff; MiMI; 15
+Num structures: 127672581
+235486 ms
+1036748 kB
+kyle_riff; CLP; 15
+Error detected
+Riff; SciFe; 16
+Num structures: 141419730
+270754 ms
+9305865 kB
+Riff; MiMI; 16
+Num structures: 141419730
+248247 ms
+657575 kB
+Skipping bound 16 for Kyle CLP due to previously-detected error
+Riff; SciFe; 17
+java.lang.OutOfMemoryError: Java heap space
+	at java.lang.reflect.Array.newInstance(Array.java:75)
+	at scala.reflect.ClassTag$class.newArray(ClassTag.scala:62)
+	at scala.reflect.ClassTag$$anon$1.newArray(ClassTag.scala:154)
+	at scife.enumeration.memoization.MemoizedStatic$class.$init$(MemoizedStatic.scala:16)
+	at scife.enumeration.memoization.Chain$$anon$4.<init>(Chain.scala:39)
+	at scife.enumeration.memoization.Chain$.apply(Chain.scala:37)
+	at scife.enumeration.benchmarks.RiffImage$$anonfun$constructEnumerator$1.apply(RiffImage.scala:96)
+	at scife.enumeration.benchmarks.RiffImage$$anonfun$constructEnumerator$1.apply(RiffImage.scala:56)
+	at scife.enumeration.dependent.WrapFunction.getEnum(WrapFunction.scala:21)
+	at scife.enumeration.dependent.Depend$$anon$2.scife$enumeration$memoization$dependent$Memoized$$super$getEnum(Depend.scala:181)
+	at scife.enumeration.memoization.dependent.Memoized$class.getEnum(Memoized.scala:21)
+	at scife.enumeration.dependent.Depend$$anon$2.getEnum(Depend.scala:181)
+	at scife.enumeration.dependent.combinators.InMap$class.getEnum(InMap.scala:17)
+	at scife.enumeration.dependent.InMap.getEnum(InMap.scala:6)
+	at scife.enumeration.dependent.ProductFinite.getEnum(ProductFinite.scala:20)
+	at scife.enumeration.dependent.ProductFinite.getEnum(ProductFinite.scala:12)
+	at scife.enumeration.dependent.ChainFiniteCombine$$anonfun$7.apply(ChainFinite.scala:65)
+	at scife.enumeration.dependent.ChainFiniteCombine$$anonfun$7.apply(ChainFinite.scala:65)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)
+	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:245)
+	at scala.collection.immutable.Range.foreach(Range.scala:166)
+	at scala.collection.TraversableLike$class.map(TraversableLike.scala:245)
+	at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+	at scife.enumeration.dependent.ChainFiniteCombine.<init>(ChainFinite.scala:65)
+	at scife.enumeration.dependent.Chain$.apply(Chain.scala:44)
+	at scife.enumeration.benchmarks.RiffImage$$anonfun$constructEnumerator$1.apply(RiffImage.scala:100)
+	at scife.enumeration.benchmarks.RiffImage$$anonfun$constructEnumerator$1.apply(RiffImage.scala:56)
+	at scife.enumeration.dependent.WrapFunction.getEnum(WrapFunction.scala:21)
+	at scife.enumeration.dependent.Depend$$anon$2.scife$enumeration$memoization$dependent$Memoized$$super$getEnum(Depend.scala:181)
+	at scife.enumeration.memoization.dependent.Memoized$class.getEnum(Memoized.scala:21)
+	at scife.enumeration.dependent.Depend$$anon$2.getEnum(Depend.scala:181)
+	at scife.enumeration.dependent.Depend$class.apply(Depend.scala:15)
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:36)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.sciFeMain(ScalameterBypassEvaluation.scala:52)
+	at scife.enumeration.benchmarks.iterators.RiffSciFeEvaluate$.main(ScalameterBypassEvaluation.scala:172)
+	at scife.enumeration.benchmarks.iterators.RiffSciFeEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+Riff; MiMI; 17
+Exception in thread "main" java.util.concurrent.TimeoutException: Futures timed out after [30 minutes]
+	at scala.concurrent.impl.Promise$DefaultPromise.ready(Promise.scala:219)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:223)
+	at scala.concurrent.Await$$anonfun$result$1.apply(package.scala:116)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:53)
+	at scala.concurrent.Await$.result(package.scala:116)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.timeWithTimeout(ScalameterBypassEvaluation.scala:36)
+	at scife.enumeration.benchmarks.iterators.ScalameterBypassEvaluation$.mimiMain(ScalameterBypassEvaluation.scala:68)
+	at scife.enumeration.benchmarks.iterators.RiffMiMIEvaluate$.main(ScalameterBypassEvaluation.scala:183)
+	at scife.enumeration.benchmarks.iterators.RiffMiMIEvaluate.main(ScalameterBypassEvaluation.scala)
+Error detected
+Skipping bound 17 for Kyle CLP due to previously-detected error
+Skipping bound 18 for SciFe due to previously-detected error
+Skipping bound 18 for MiMIs due to previously-detected error
+Skipping bound 18 for Kyle CLP due to previously-detected error
+Skipping bound 19 for SciFe due to previously-detected error
+Skipping bound 19 for MiMIs due to previously-detected error
+Skipping bound 19 for Kyle CLP due to previously-detected error
+Skipping bound 20 for SciFe due to previously-detected error
+Skipping bound 20 for MiMIs due to previously-detected error
+Skipping bound 20 for Kyle CLP due to previously-detected error
+Skipping bound 21 for SciFe due to previously-detected error
+Skipping bound 21 for MiMIs due to previously-detected error
+Skipping bound 21 for Kyle CLP due to previously-detected error
+Skipping bound 22 for SciFe due to previously-detected error
+Skipping bound 22 for MiMIs due to previously-detected error
+Skipping bound 22 for Kyle CLP due to previously-detected error
+Skipping bound 23 for SciFe due to previously-detected error
+Skipping bound 23 for MiMIs due to previously-detected error
+Skipping bound 23 for Kyle CLP due to previously-detected error
+Skipping bound 24 for SciFe due to previously-detected error
+Skipping bound 24 for MiMIs due to previously-detected error
+Skipping bound 24 for Kyle CLP due to previously-detected error
+Skipping bound 25 for SciFe due to previously-detected error
+Skipping bound 25 for MiMIs due to previously-detected error
+Skipping bound 25 for Kyle CLP due to previously-detected error
+Skipping bound 26 for SciFe due to previously-detected error
+Skipping bound 26 for MiMIs due to previously-detected error
+Skipping bound 26 for Kyle CLP due to previously-detected error
+Skipping bound 27 for SciFe due to previously-detected error
+Skipping bound 27 for MiMIs due to previously-detected error
+Skipping bound 27 for Kyle CLP due to previously-detected error
+Skipping bound 28 for SciFe due to previously-detected error
+Skipping bound 28 for MiMIs due to previously-detected error
+Skipping bound 28 for Kyle CLP due to previously-detected error
+Skipping bound 29 for SciFe due to previously-detected error
+Skipping bound 29 for MiMIs due to previously-detected error
+Skipping bound 29 for Kyle CLP due to previously-detected error
+Skipping bound 30 for SciFe due to previously-detected error
+Skipping bound 30 for MiMIs due to previously-detected error
+Skipping bound 30 for Kyle CLP due to previously-detected error
+Skipping bound 31 for SciFe due to previously-detected error
+Skipping bound 31 for MiMIs due to previously-detected error
+Skipping bound 31 for Kyle CLP due to previously-detected error
+Skipping bound 32 for SciFe due to previously-detected error
+Skipping bound 32 for MiMIs due to previously-detected error
+Skipping bound 32 for Kyle CLP due to previously-detected error
+Skipping bound 33 for SciFe due to previously-detected error
+Skipping bound 33 for MiMIs due to previously-detected error
+Skipping bound 33 for Kyle CLP due to previously-detected error
+Skipping bound 34 for SciFe due to previously-detected error
+Skipping bound 34 for MiMIs due to previously-detected error
+Skipping bound 34 for Kyle CLP due to previously-detected error
+Skipping bound 35 for SciFe due to previously-detected error
+Skipping bound 35 for MiMIs due to previously-detected error
+Skipping bound 35 for Kyle CLP due to previously-detected error
+Skipping bound 36 for SciFe due to previously-detected error
+Skipping bound 36 for MiMIs due to previously-detected error
+Skipping bound 36 for Kyle CLP due to previously-detected error
+Skipping bound 37 for SciFe due to previously-detected error
+Skipping bound 37 for MiMIs due to previously-detected error
+Skipping bound 37 for Kyle CLP due to previously-detected error
+Skipping bound 38 for SciFe due to previously-detected error
+Skipping bound 38 for MiMIs due to previously-detected error
+Skipping bound 38 for Kyle CLP due to previously-detected error
+Skipping bound 39 for SciFe due to previously-detected error
+Skipping bound 39 for MiMIs due to previously-detected error
+Skipping bound 39 for Kyle CLP due to previously-detected error
+Skipping bound 40 for SciFe due to previously-detected error
+Skipping bound 40 for MiMIs due to previously-detected error
+Skipping bound 40 for Kyle CLP due to previously-detected error
+Skipping bound 41 for SciFe due to previously-detected error
+Skipping bound 41 for MiMIs due to previously-detected error
+Skipping bound 41 for Kyle CLP due to previously-detected error
+Skipping bound 42 for SciFe due to previously-detected error
+Skipping bound 42 for MiMIs due to previously-detected error
+Skipping bound 42 for Kyle CLP due to previously-detected error
+Skipping bound 43 for SciFe due to previously-detected error
+Skipping bound 43 for MiMIs due to previously-detected error
+Skipping bound 43 for Kyle CLP due to previously-detected error
+Skipping bound 44 for SciFe due to previously-detected error
+Skipping bound 44 for MiMIs due to previously-detected error
+Skipping bound 44 for Kyle CLP due to previously-detected error
+Skipping bound 45 for SciFe due to previously-detected error
+Skipping bound 45 for MiMIs due to previously-detected error
+Skipping bound 45 for Kyle CLP due to previously-detected error
+Skipping bound 46 for SciFe due to previously-detected error
+Skipping bound 46 for MiMIs due to previously-detected error
+Skipping bound 46 for Kyle CLP due to previously-detected error
+Skipping bound 47 for SciFe due to previously-detected error
+Skipping bound 47 for MiMIs due to previously-detected error
+Skipping bound 47 for Kyle CLP due to previously-detected error
+Skipping bound 48 for SciFe due to previously-detected error
+Skipping bound 48 for MiMIs due to previously-detected error
+Skipping bound 48 for Kyle CLP due to previously-detected error
+Skipping bound 49 for SciFe due to previously-detected error
+Skipping bound 49 for MiMIs due to previously-detected error
+Skipping bound 49 for Kyle CLP due to previously-detected error
+Skipping bound 50 for SciFe due to previously-detected error
+Skipping bound 50 for MiMIs due to previously-detected error
+Skipping bound 50 for Kyle CLP due to previously-detected error

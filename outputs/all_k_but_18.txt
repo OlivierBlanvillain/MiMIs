@@ -1,0 +1,216 @@
+K: 1000
+Bound: 12
+BSTs; MiMI; 12
+Num structures: 208012
+486 ms
+157 kB
+K: 1000
+Bound: 13
+BSTs; MiMI; 13
+Num structures: 742900
+1605 ms
+180 kB
+K: 1000
+Bound: 14
+BSTs; MiMI; 14
+Num structures: 2674440
+4899 ms
+211 kB
+K: 1000
+Bound: 15
+BSTs; MiMI; 15
+Num structures: 9694845
+17885 ms
+239 kB
+K: 1000
+Bound: 16
+BSTs; MiMI; 16
+Num structures: 35357670
+66804 ms
+262 kB
+K: 1000
+Bound: 17
+BSTs; MiMI; 17
+Num structures: 129644790
+279301 ms
+106 kB
+K: 10000
+Bound: 12
+BSTs; MiMI; 12
+Num structures: 208012
+447 ms
+2046 kB
+K: 10000
+Bound: 13
+BSTs; MiMI; 13
+Num structures: 742900
+1041 ms
+2491 kB
+K: 10000
+Bound: 14
+BSTs; MiMI; 14
+Num structures: 2674440
+3932 ms
+2909 kB
+K: 10000
+Bound: 15
+BSTs; MiMI; 15
+Num structures: 9694845
+15380 ms
+3591 kB
+K: 10000
+Bound: 16
+BSTs; MiMI; 16
+Num structures: 35357670
+52866 ms
+3633 kB
+K: 10000
+Bound: 17
+BSTs; MiMI; 17
+Num structures: 129644790
+226194 ms
+3627 kB
+K: 100000
+Bound: 12
+BSTs; MiMI; 12
+Num structures: 208012
+473 ms
+16507 kB
+K: 100000
+Bound: 13
+BSTs; MiMI; 13
+Num structures: 742900
+1024 ms
+23297 kB
+K: 100000
+Bound: 14
+BSTs; MiMI; 14
+Num structures: 2674440
+3050 ms
+23114 kB
+K: 100000
+Bound: 15
+BSTs; MiMI; 15
+Num structures: 9694845
+11324 ms
+35711 kB
+K: 100000
+Bound: 16
+BSTs; MiMI; 16
+Num structures: 35357670
+39447 ms
+35798 kB
+K: 100000
+Bound: 17
+BSTs; MiMI; 17
+Num structures: 129644790
+167099 ms
+53124 kB
+K: 1000000
+Bound: 12
+BSTs; MiMI; 12
+Num structures: 208012
+335 ms
+35600 kB
+K: 1000000
+Bound: 13
+BSTs; MiMI; 13
+Num structures: 742900
+776 ms
+150693 kB
+K: 1000000
+Bound: 14
+BSTs; MiMI; 14
+Num structures: 2674440
+2481 ms
+69025 kB
+K: 1000000
+Bound: 15
+BSTs; MiMI; 15
+Num structures: 9694845
+7520 ms
+120068 kB
+K: 1000000
+Bound: 16
+BSTs; MiMI; 16
+Num structures: 35357670
+27975 ms
+120154 kB
+K: 1000000
+Bound: 17
+BSTs; MiMI; 17
+Num structures: 129644790
+115629 ms
+335273 kB
+K: 10000000
+Bound: 12
+BSTs; MiMI; 12
+Num structures: 208012
+327 ms
+35600 kB
+K: 10000000
+Bound: 13
+BSTs; MiMI; 13
+Num structures: 742900
+820 ms
+150693 kB
+K: 10000000
+Bound: 14
+BSTs; MiMI; 14
+Num structures: 2674440
+2801 ms
+69025 kB
+K: 10000000
+Bound: 15
+BSTs; MiMI; 15
+Num structures: 9694845
+11971 ms
+3523300 kB
+K: 10000000
+Bound: 16
+BSTs; MiMI; 16
+Num structures: 35357670
+38354 ms
+3523374 kB
+K: 10000000
+Bound: 17
+BSTs; MiMI; 17
+Num structures: 129644790
+114248 ms
+3667732 kB
+K: 100000000
+Bound: 12
+BSTs; MiMI; 12
+Num structures: 208012
+391 ms
+35600 kB
+K: 100000000
+Bound: 13
+BSTs; MiMI; 13
+Num structures: 742900
+745 ms
+150693 kB
+K: 100000000
+Bound: 14
+BSTs; MiMI; 14
+Num structures: 2674440
+2427 ms
+69025 kB
+K: 100000000
+Bound: 15
+BSTs; MiMI; 15
+Num structures: 9694845
+12527 ms
+3523300 kB
+K: 100000000
+Bound: 16
+BSTs; MiMI; 16
+Num structures: 35357670
+42123 ms
+15175578 kB
+K: 100000000
+Bound: 17
+BSTs; MiMI; 17
+Num structures: 129644790
+129940 ms
+14673114 kB

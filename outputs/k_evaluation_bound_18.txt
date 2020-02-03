@@ -1,0 +1,36 @@
+K: 1000
+Bound: 18
+BSTs; MiMI; 18
+Num structures: 477638700
+1062794 ms
+152 kB
+K: 10000
+Bound: 18
+BSTs; MiMI; 18
+Num structures: 477638700
+875342 ms
+3666 kB
+K: 100000
+Bound: 18
+BSTs; MiMI; 18
+Num structures: 477638700
+674322 ms
+55816 kB
+K: 1000000
+Bound: 18
+BSTs; MiMI; 18
+Num structures: 477638700
+504495 ms
+382639 kB
+K: 10000000
+Bound: 18
+BSTs; MiMI; 18
+Num structures: 477638700
+417238 ms
+3709207 kB
+K: 100000000
+Bound: 18
+BSTs; MiMI; 18
+Num structures: 477638700
+375463 ms
+14651659 kB
